@@ -1,0 +1,3 @@
+﻿## LangFSharp
+
+Playground for F#.
