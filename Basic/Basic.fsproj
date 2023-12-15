@@ -8,6 +8,8 @@
     <ItemGroup>
         <Compile Include="signature.fsi" />
         <Compile Include="signature.fs" />
+        <Compile Include="aasync.fsi" />
+        <Compile Include="aasync.fs" />
     </ItemGroup>
 
 </Project>

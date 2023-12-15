@@ -27,3 +27,5 @@ jobs:
       - name: Test
         run: |
           docker run --rm user/app:latest basic.add 1 2
+          docker run --rm user/app:latest aasync.add 1 2
+          docker run --rm user/app:latest aasync.compute 1 2
