@@ -15,14 +15,16 @@ let addprintfn x y =
         return o
     }
 
-let multiaddprintf =
+let () =
     [|1;2;3;4;5;6;7;8;9;0|]
     |> Seq.pairwise
     |> Seq.map (fun(x,y) -> addprintfn x y)
     |> Async.Parallel
     |> Async.RunSynchronously
-    
-multiaddprintf
+    |> Array.sum
+    |> printfn "sum: %d"
+
+printfn "done"
 
 let keepAdding x =
     async {
