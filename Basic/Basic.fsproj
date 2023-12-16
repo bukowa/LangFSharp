@@ -10,6 +10,9 @@
         <Compile Include="signature.fs" />
         <Compile Include="aasync.fsi" />
         <Compile Include="aasync.fs" />
+        <Compile Include="module_vs_namespace\mmodule.fs" />
+        <Content Include="module_vs_namespace\README.md" />
+        <Compile Include="module_vs_namespace\nnamespace.fs" />
     </ItemGroup>
 
 </Project>
